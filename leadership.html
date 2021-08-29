@@ -17,7 +17,7 @@
     <header class="wrapper bg-soft-primary">
       <nav class="navbar classic transparent navbar-expand-lg navbar-light">
         <div class="container flex-lg-row flex-nowrap align-items-center">
-          <div class="navbar-brand w-100"><a href="index.html"><img src="img/logo-dark.png" srcset="img/logo-dark@2x.png 2x" alt="" /></a></div>
+          <div class="navbar-brand w-100"><a href="index.html"><img src="img/logo-dark.png" style="height: 50px;"  srcset="img/logo-dark@2x.png 2x" alt="" /></a></div>
           <div class="navbar-collapse offcanvas-nav">
             <div class="offcanvas-header d-lg-none d-xl-none">
               <a href="index.html"><img src="img/logo-light.png" srcset="img/logo-light@2x.png 2x" alt="" /></a>
@@ -38,6 +38,14 @@
               <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a>
               </li>
             </ul>
+          </div>
+          <div class="navbar-other ms-auto">
+            <ul class="navbar-nav flex-row align-items-center ms-auto" data-sm-skip="true">
+              <li class="nav-item d-lg-none">
+                <div class="navbar-hamburger"><button class="hamburger animate plain" data-toggle="offcanvas-nav"><span></span></button></div>
+              </li>
+            </ul>
+            <!-- /.navbar-nav -->
           </div>
         </div>
       </nav>
@@ -66,12 +74,12 @@
     </section>
     <section class="wrapper bg-light wrapper-border">
         <div class="container py-14 py-md-16">
-          <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+          <div class="row gx-lg-8 gx-xl-12 gy-10 text-center">
             
             <!--/column -->
-            <div class="col-lg-12">
-              <div class="carousel owl-carousel text-center" data-margin="30" data-dots="true" data-autoplay="false" data-autoplay-timeout="5000" data-responsive='{"0":{"items": "1"}, "768":{"items": "2"}, "992":{"items": "2"}, "1200":{"items": "3"}}'>
-                <div class="item">
+            <!-- <div class="col-lg-12">
+              <div class="carousel owl-carousel text-center" data-margin="30" data-dots="true" data-autoplay="false" data-autoplay-timeout="5000" data-responsive='{"0":{"items": "1"}, "768":{"items": "2"}, "992":{"items": "2"}, "1200":{"items": "3"}}'> -->
+                <div class="col-lg-4 item">
                   <img class="w-20 mx-auto mb-4" src="img/avatars/jorgen.png" alt="" />
                   <h4 class="mb-1">Jorgen Nilsson</h4>
                   <div class="meta mb-2">Board Advisor</div>
@@ -84,7 +92,7 @@
                   <!-- /.social -->
                 </div>
                 <!-- /.item -->
-                <div class="item">
+                <div class="col-lg-4 item">
                   <img class="w-20 mx-auto mb-4" src="img/avatars/khalil.png" alt="" />
                   <h4 class="mb-1">Khalil Mohd Al-Hindwan</h4>
                   <div class="meta mb-2">Board Advisor</div>
@@ -97,7 +105,7 @@
                   <!-- /.social -->
                 </div>
                 <!-- /.item -->
-                <div class="item">
+                <div class="col-lg-4 item">
                   <img class=" w-20 mx-auto mb-4" src="img/avatars/cory.png" alt="" />
                   <h4 class="mb-1">Cory Thwaites</h4>
                   <div class="meta mb-2">Board Advisor</div>
@@ -110,7 +118,7 @@
                   <!-- /.social -->
                 </div>
                 <!-- /.item -->
-                <div class="item">
+                <div class="col-lg-4 item">
                   <img class="w-20 mx-auto mb-4" src="img/avatars/kalyan.png" alt="" />
                   <h4 class="mb-1">Kalyan Garud</h4>
                   <div class="meta mb-2">Founder & Executive Director</div>
@@ -118,27 +126,27 @@
                   <!-- /.social -->
                 </div>
                 <!-- /.item -->
-                <div class="item">
+                <div class="col-lg-4 item">
                   <img class="w-20 mx-auto mb-4" src="img/avatars/kunal.png" alt="" />
                   <h4 class="mb-1">Kunal Garud</h4>
                   <div class="meta mb-2">Founder & CEO</div>
                   
                   
                 </div>
-                <div class="item">
+                <div class="col-lg-4 item">
                     <img class="w-20 mx-auto mb-4" src="img/avatars/vibhav.png" alt="" />
                     <h4 class="mb-1">Vibhav Shetye</h4>
                     <div class="meta mb-2">Director & CMO</div>
                   </div>
-                  <div class="item">
+                  <div class="col-lg-4 item">
                     <img class="w-20 mx-auto mb-4" src="img/avatars/lalit.png" alt="" />
                     <h4 class="mb-1">Lalit Deshmukh</h4>
                     <div class="meta mb-2">Director & CTO</div>
                   </div>
                 <!-- /.item -->
-              </div>
-              <!-- /.owl-carousel -->
-            </div>
+              <!-- </div>
+            
+            </div> -->
             <!--/column -->
           </div>
           <!--/.row -->
@@ -152,14 +160,12 @@
       <div class="row gy-6 gy-lg-0">
         <div class="col-md-4 col-lg-4">
           <div class="widget">
-            <img class="mb-4" src="img/logo-light.png" srcset="img/logo-light@2x.png 2x" alt="" />
-            <p class="mb-4">© 2021 BlueTie. <br class="d-none d-lg-block" />All rights reserved.</p>
+            <img class="mb-4" src="img/logo-light.png" style="height: 50px;" srcset="img/logo-light@2x.png 2x" alt="" />
+            <p class="mb-4">© 2021 BlueTie. All rights reserved.</p>
             <nav class="nav social social-white">
-              <a href="#"><i class="uil uil-twitter"></i></a>
-              <a href="#"><i class="uil uil-facebook-f"></i></a>
-              <a href="#"><i class="uil uil-dribbble"></i></a>
-              <a href="#"><i class="uil uil-instagram"></i></a>
-              <a href="#"><i class="uil uil-youtube"></i></a>
+              <a href="https://twitter.com/Bluetieglobal"><i class="uil uil-twitter"></i></a>
+              <a href="https://www.facebook.com/bluetieglobal"><i class="uil uil-facebook-f"></i></a>
+              <a href="https://www.linkedin.com/company/bluetieglobal/"><i class="uil uil-linkedin"></i></a>
             </nav>
             <!-- /.social -->
           </div>
